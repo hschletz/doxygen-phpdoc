@@ -44,7 +44,7 @@ Usage
 The package provides an input filter which must be activated in the project's
 Doxygen config file. Also activate the JAVADOC_AUTOBRIEF option:
 
-    FILTER_PATTERNS        = *.php=vendor/bin/doxygen-phpdoc-filter
+    FILTER_PATTERNS        = *.php=vendor/bin/doxygen-phpdoc-filter.php
     JAVADOC_AUTOBRIEF      = YES
 
 Adjust file extensions and script path as necessary. After setting
@@ -54,7 +54,7 @@ the documentation.
 The output is already usable, but with some limitations. The postprocessor can
 fix some of the issues for the HTML output. Invoke it with the output directory:
 
-    vendor/bin/doxygen-phpdoc-fixhtml doc/api/html
+    vendor/bin/doxygen-phpdoc-fixhtml.php doc/api/html
 
 
 The input filter
