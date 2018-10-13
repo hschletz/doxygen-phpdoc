@@ -1,0 +1,22 @@
+{
+    "name": "hschletz/doxygen-phpdoc",
+    "description": "PHPDoc support for Doxygen",
+    "homepage": "https://github.com/hschletz/doxygen-phpdoc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Holger Schletz",
+            "email": "holger.schletz@web.de"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hschletz/doxygen-phpdoc/issues"
+    },
+    "bin": [
+        "doxygen-phpdoc-filter.php",
+        "doxygen-phpdoc-fixhtml.php"
+    ],
+    "require": {
+        "zendframework/zend-dom": "^2.7"
+    }
+}
