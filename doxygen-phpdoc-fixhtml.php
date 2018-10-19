@@ -31,7 +31,7 @@ $separatorQueries = [
     \Zend\Dom\Document\Query::cssToXpath('html:a.elRef') => null,
     \Zend\Dom\Document\Query::cssToXpath('html:area') => 'alt',
 ];
-$phpLinkQuery = '//html:a[@href]';
+$phpLinkQuery = '//*[@href]';
 
 $files = new \RecursiveDirectoryIterator(
     $dir,
